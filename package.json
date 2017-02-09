@@ -1,0 +1,47 @@
+{
+  "name": "futura-example",
+  "version": "0.1.0",
+  "description": "Futura example app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/futurajs/futura-example.git"
+  },
+  "keywords": [
+    "state-machine",
+    "fsm",
+    "flux",
+    "redux",
+    "futura",
+    "ui"
+  ],
+  "author": {
+    "name": "Ali Sabil",
+    "email": "ali.sabil@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/futurajs/futura-example/issues"
+  },
+  "homepage": "https://github.com/futurajs/futura-example",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --env.production",
+    "start": "webpack-dev-server --env.development",
+    "lint": "tslint \"src/**/*.ts\""
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "3.0.4-rc.0",
+    "clean-webpack-plugin": "0.1.15",
+    "compression-webpack-plugin": "0.3.2",
+    "csstips": "0.2.0",
+    "csx": "8.2.1",
+    "file-loader": "0.10.0",
+    "futura-dom": "0.1.1",
+    "html-webpack-plugin": "2.28.0",
+    "tslint": "4.4.2",
+    "tslint-loader": "3.3.0",
+    "typescript": "2.1.6",
+    "typestyle": "1.1.0",
+    "webpack": "2.2.1",
+    "webpack-dev-server": "2.3.0"
+  }
+}
