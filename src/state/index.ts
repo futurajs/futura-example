@@ -2,7 +2,7 @@ import { Services } from 'app/services';
 
 export function init(services: Services): State {
   return State.init();
-};
+}
 
 export class State {
   public readonly counter: number;
